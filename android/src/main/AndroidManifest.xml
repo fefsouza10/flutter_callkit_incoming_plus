@@ -20,6 +20,8 @@
             android:configChanges="orientation"
             android:exported="true"
             android:launchMode="singleInstance"
+            android:showOnLockScreen="true"
+            android:showWhenLocked="true"
             android:allowTaskReparenting="false"
             android:theme="@style/CallkitIncomingTheme">
             <intent-filter>
